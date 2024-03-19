@@ -1,6 +1,6 @@
 {
   "name": "@ethan-johnson17/psqwidget",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "This widget will take your customers to your PublicSquare listing.",
   "main": "widget.js",
   "scripts": {
