@@ -1,0 +1,43 @@
+:root {
+  --blue1: #1264A3;
+  --blue2: #2392A2;
+  --blue3: #0E9DD3;
+  --purple: #4A154B;
+  --light-purple: #6252ff;
+}
+
+
+.widget-container {
+  background-color: #e7e7e7;
+  border-radius: 5px;
+  width: 100px;
+  padding: 2.5px 15px;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: small;
+  font-weight: 500;
+}
+
+.psq-link {
+  text-decoration: none;
+  color: black;
+}
+
+.logo {
+  width: 100%;
+}
+
+.m-1 {
+  margin: 2px;
+}
+
+/* .border-gradient {
+  border: 10px solid;
+  border-image-slice: 1;
+  border-radius: 5px;
+  border-width: 5px;
+}
+
+.border-gradient-purple {
+  border-radius: 5px;
+  border-image-source: linear-gradient(to left, #6252ff, #ba4b9a);
+} */
