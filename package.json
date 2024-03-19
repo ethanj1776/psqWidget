@@ -1,0 +1,29 @@
+{
+  "name": "psqwidget",
+  "version": "1.0.0",
+  "description": "This widget will take your customers to your PublicSquare listing.",
+  "main": "widget.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ethan-Johnson17/psqWidget.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/ethan-johnson17"
+  },
+  "keywords": [
+    "publicsquare",
+    "psq",
+    "business",
+    "conservative",
+    "freedom"
+  ],
+  "author": "Ethan Johnson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ethan-Johnson17/psqWidget/issues"
+  },
+  "homepage": "https://github.com/Ethan-Johnson17/psqWidget#readme"
+}
