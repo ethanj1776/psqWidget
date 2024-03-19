@@ -1,0 +1,24 @@
+# Node.js
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# NPM
+.npmrc
+
+# macOS
+.DS_Store
+
+# IDEs
+.vscode/
+.idea/
+
+# OS generated files
+Thumbs.db
+.DS_Store
+
+# Logs
+*.log
+
+# Ignore all .DS_Store files in this project
+**/.DS_Store
