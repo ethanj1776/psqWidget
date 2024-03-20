@@ -1,6 +1,6 @@
 {
   "name": "psqwidget",
-  "version": "1.0.5",
+  "version": "1.1.0",
   "description": "This widget will take your customers to your PublicSquare listing.",
   "main": "widget.js",
   "scripts": {
@@ -24,8 +24,5 @@
     "url": "https://github.com/Ethan-Johnson17/psqWidget/issues"
   },
   "homepage": "https://github.com/Ethan-Johnson17/psqWidget#readme",
-  "private": false,
-  "devDependencies": {
-    "vite": "^5.2.2"
-  }
+  "private": false
 }

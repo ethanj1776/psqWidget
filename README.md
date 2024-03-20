@@ -1,0 +1,1 @@
+Available sizes: small, medium, large, or banner
