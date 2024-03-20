@@ -37,10 +37,10 @@ HTML:
     <title>My Website</title>
     <link
       rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/psqwidget@1.1.0/widget.css"
+      href="https://cdn.jsdelivr.net/npm/psqwidget@1.1.1/widget.css"
     />
     <link rel="stylesheet" href="style.css" />
-    <script src="https://cdn.jsdelivr.net/npm/psqwidget@1.1.0/widget.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/psqwidget@1.1.1/widget.js"></script>
   </head>
   <body>
     <div id="widget-parent"></div>
