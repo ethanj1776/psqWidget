@@ -34,10 +34,10 @@ class PSQWidget {
     this.parentContainer ? this.parentContainer.innerHTML = `
     <div class="widget-container" id="widget-container">
       <p class="m-1">Find us on</p>
-      <img class="logo" src="https://cdn.jsdelivr.net/npm/psqwidget@1.0.0/images/PSQ_Logo.png" alt="PublicSquare" />
+      <img class="logo" src="https://cdn.jsdelivr.net/npm/psqidget@1.0.0/images/PSQ_Logo.png" alt="PublicSquare" />
     </div>
     ` : console.log('Widget failed!');
-    document.getElementById('widget-container')?.classList.add('psqWidget'+ (this.widgetSize ? this.widgetSize : 'small'))
+    document.getElementById('widget-container')?.classList.add('psqwidget-'+ (this.widgetSize ? this.widgetSize : 'small'))
   }
 
   // Other methods and properties of YourWidget
