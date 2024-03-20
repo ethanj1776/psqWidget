@@ -35,7 +35,7 @@ class PSQWidget {
     this.parentContainer ? this.parentContainer.innerHTML = `
     <div class="widget-container border-gradient border-gradient-purple">
       <a
-        href="https://www.publicsquare.com"
+        href="${this.psqBusinessLink}"
         target="_blank"
         class="psq-link"
         id="psq-link"
