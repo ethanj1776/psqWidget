@@ -35,7 +35,7 @@ class PSQWidget {
     this.parentContainer ? this.parentContainer.innerHTML = `
     <div class="widget-container border-gradient border-gradient-purple">
       <a
-        href="https://www.publicsquare.com"
+        href="${this.psqBusinessLink}"
         target="_blank"
         class="psq-link"
         id="psq-link"
@@ -49,3 +49,9 @@ class PSQWidget {
 
   // Other methods and properties of YourWidget
 }
+
+
+// Export the YourWidget class so it can be used in other files
+// @ts-ignore
+window.PSQWidget = PSQWidget;
+
