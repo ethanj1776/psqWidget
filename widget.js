@@ -3,7 +3,7 @@ class PSQWidget {
   constructor(parentContainerID, psqBusinessLink, widgetSize, widgetColor) {
     // Initialization code
     this.parentContainer = document.getElementById(parentContainerID);
-    this.psqBusinessLink = psqBusinessLink;
+    this.psqBusinessLink = "https://www.publicsquare.com/featured/marketplace/" + psqBusinessLink;
     this.widgetSize = widgetSize.toLowerCase();
     this.widgetColor = widgetColor;
 
@@ -37,7 +37,7 @@ class PSQWidget {
       <img class="logo" src="https://cdn.jsdelivr.net/npm/psqwidget@1.0.0/images/PSQ_Logo.png" alt="PublicSquare" />
     </div>
     ` : console.log('Widget failed!');
-    document.getElementById('widget-container')?.classList.add('psqWidget'+ this.widgetSize)
+    document.getElementById('widget-container')?.classList.add('psqWidget'+ (this.widgetSize ? this.widgetSize : 'small'))
   }
 
   // Other methods and properties of YourWidget
