@@ -50,6 +50,8 @@ class PSQWidget {
   // Other methods and properties of YourWidget
 }
 
+
 // Export the YourWidget class so it can be used in other files
 // @ts-ignore
 window.PSQWidget = PSQWidget;
+
