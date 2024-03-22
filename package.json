@@ -1,6 +1,6 @@
 {
-  "name": "psqwidget",
-  "version": "1.1.5",
+  "name": "@ethan-johnson17/psqwidget",
+  "version": "1.1.7",
   "description": "This widget will take your customers to your PublicSquare listing.",
   "main": "widget.js",
   "scripts": {
@@ -10,6 +10,9 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Ethan-Johnson17/psqWidget.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/ethan-johnson17"
   },
   "keywords": [
     "publicsquare",

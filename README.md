@@ -8,6 +8,7 @@ In your CLI, run the command `npm i psqwidget`.
 ### Installation Using CDN
 Copy and paste the following two links in your html head tag 
 `<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/psqwidget@1.1.0/widget.css"/>`
+
 `<script src="https://cdn.jsdelivr.net/npm/psqwidget@1.0.9/widget.js"></script>`
 
 ## PSQWidget Parameters and Options
@@ -37,10 +38,10 @@ HTML:
     <title>My Website</title>
     <link
       rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/psqwidget@1.1.1/widget.css"
+      href="https://cdn.jsdelivr.net/npm/psqwidget@1.1.7/widget.css"
     />
     <link rel="stylesheet" href="style.css" />
-    <script src="https://cdn.jsdelivr.net/npm/psqwidget@1.1.1/widget.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/psqwidget@1.1.7/widget.js"></script>
   </head>
   <body>
     <div id="widget-parent"></div>
@@ -49,6 +50,7 @@ HTML:
 </html>
 
 ```
+JavaScript:
 ```
 document.addEventListener("DOMContentLoaded", function () {
   // Create an instance of the widget
