@@ -7,9 +7,9 @@ In your CLI, run the command `npm i psqwidget`.
 
 ### Installation Using CDN
 Copy and paste the following two links in your html head tag 
-`<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/psqwidget@1.1.6/widget.css"/>`
+`<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/psqwidget@1.1.7/widget.css"/>`
 
-`<script src="https://cdn.jsdelivr.net/npm/psqwidget@1.0.9/widget.js"></script>`
+`<script src="https://cdn.jsdelivr.net/npm/psqwidget@1.1.7/widget.js"></script>`
 
 ## PSQWidget Parameters and Options
 The PSQWidget takes the following parameters, in order: parentContainerID, psqBusinessLink, widgetSize.
