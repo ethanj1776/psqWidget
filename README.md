@@ -7,7 +7,7 @@ In your CLI, run the command `npm i psqwidget`.
 
 ### Installation Using CDN
 Copy and paste the following two links in your html head tag 
-`<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/psqwidget@1.1.0/widget.css"/>`
+`<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/psqwidget@1.1.6/widget.css"/>`
 
 `<script src="https://cdn.jsdelivr.net/npm/psqwidget@1.0.9/widget.js"></script>`
 
@@ -30,6 +30,10 @@ Each size has a max width of:
 - Banner - auto
 
 ### Examples 
+For the small, medium or large widget, this should be the result:
+
+![psqWidgetLg](https://github.com/Ethan-Johnson17/psqWidget/assets/85658808/57995bf0-a597-40c3-bd7c-e74a98ae65da)
+
 HTML:
 ```
 <html lang="en">
@@ -56,8 +60,46 @@ document.addEventListener("DOMContentLoaded", function () {
   // Create an instance of the widget
         var widget = new PSQWidget(
           "widget-parent", // parentContainerID
-          "84a1ba44-69d8-11ed-8a63-50eb7179fd78", // psqBusinessLink
-          "small" // widgetSize
+          "9f548a8a-256a-11ed-a38a-50eb7179fd78", // psqBusinessLink
+          "large" // widgetSize
         );
       });
 ```
+
+For the banner, you should see this spanning the width of the page:
+
+![psqWidgetBanner](https://github.com/Ethan-Johnson17/psqWidget/assets/85658808/0fd8b108-ff31-450f-96eb-7407dfee6dc9)
+
+
+HTML:
+```
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>My Website</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/psqwidget@1.1.7/widget.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/psqwidget@1.1.7/widget.js"></script>
+  </head>
+  <body>
+    <div id="widget-parent"></div>
+    <script src="main.js"></script>
+  </body>
+</html>
+
+```
+JavaScript:
+```
+document.addEventListener("DOMContentLoaded", function () {
+  // Create an instance of the widget
+        var widget = new PSQWidget(
+          "widget-parent", // parentContainerID
+          "120a5060-c371-11ed-a416-07e9294e9f7a", // psqBusinessLink
+          "banner" // widgetSize
+        );
+      });
+```
+
